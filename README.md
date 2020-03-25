@@ -7,7 +7,7 @@ Download <a href="https://bootstrap.pypa.io/get-pip.py">get-pip.py</a> to a fold
 Create virtual environment<br>
 <code>pip install virtualenv</code>
 
-activate environment
+activate environment<br>
 for windows<br>
 <code>myenv\Scripts\activate</code>
 
@@ -16,16 +16,20 @@ for Mac<br>
 
 Install all requirements of this project<br>
 <code>pip install requirement.txt</code>
+<br><br>
+<br><br>
+
+Set the database to store data >> <br>
+Default database is 'django.db.backends.sqlite3'. which is file based database<br>
+To create table in database<br>
+<code>python manage.py makemigrations</code><br>
+<code>python manage.py migrate</code>
+<br><br>
 
 then run the apis using<br>
 <code>python manage.py runserver localhost:8000</code>
 <br><br>
-Set the database to store data >> <br>
-Default database is 'django.db.backends.sqlite3'. which is file based database<br>
-To create table in database<br>
-<code>python manage.py makemigrations</code>
-<code>python manage.py migrate</code>
-<br><br>
+
 APIs are ready to use now<br>
 Apis can be accessed with url<br>
 Get Request >><br>
